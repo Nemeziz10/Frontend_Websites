@@ -1,0 +1,394 @@
+*
+{
+    margin: 0;
+    border: border-box;
+    padding: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading
+{
+    height: 60px;
+    width: 150px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading a
+{
+    text-decoration: none;
+    color: red;
+}
+
+.orders
+{
+    display: flex;
+    position: relative;
+    left: 1350px;
+}
+
+.orders a
+{
+    color: black;
+}
+
+.navbar
+{
+    height: 60px;
+    background-color: yellow;
+
+}
+
+.nav-search
+{
+    display: flex;
+    justify-content: center;
+}
+
+.search
+{
+    height: 35px;
+    width: 620px;
+    margin-right: 2px;
+}
+
+.search-input
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.program
+{
+    height: 36.6px;
+    width: 110px;
+}
+
+.program-select
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.semester
+{
+    height: 36.6px;
+    width: 123px;
+}
+
+.semester-select
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.subject
+{
+    height: 36.6px;
+    width: 110px;
+}
+
+.subject-select
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.top
+{
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.button1
+{
+    height: 36.6px;
+    width: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.book1
+{
+    display: flex;
+}
+
+.book1-img
+{
+    height: 170px;
+    width: 130px;
+    background-image: url("Computer-Fundamentals.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.book1-title
+{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.book1-author
+{
+    position: relative;
+    left: -178px;
+    top: 45px;
+}
+
+.book1-add-cart
+{
+    position: relative;
+    left: 645px;
+    top: 80px;
+}
+
+.book1-add-cart button
+{
+    height: 30px;
+    width: 70px;
+}
+
+.book2
+{
+    display: flex;
+}
+
+.book2-img
+{
+    height: 170px;
+    width: 130px;
+    background-image: url("Computer-Networks.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.book2-title
+{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.book2-author
+{
+    position: relative;
+    left: -143px;
+    top: 45px;
+}
+
+.book2-add-cart
+{
+    position: relative;
+    left: 670px;
+    top: 80px;
+}
+
+.book2-add-cart button
+{
+    height: 30px;
+    width: 70px;
+}
+
+.book3
+{
+    display: flex;
+}
+
+.book3-img
+{
+    height: 170px;
+    width: 130px;
+    background-image: url("Object-Oriented-Programming.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.book3-title
+{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.book3-author
+{
+    position: relative;
+    left: -318px;
+    top: 45px;
+}
+
+.book3-add-cart
+{
+    position: relative;
+    left: 506px;
+    top: 80px;
+}
+
+.book3-add-cart button
+{
+    height: 30px;
+    width: 70px;
+}
+
+.book4
+{
+    display: flex;
+}
+
+.book4-img
+{
+    height: 170px;
+    width: 130px;
+    background-image: url("Operating\ System.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.book4-title
+{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.book4-author
+{
+    position: relative;
+    left: -123px;
+    top: 45px;
+}
+
+.book4-add-cart
+{
+    position: relative;
+    left: 742px;
+    top: 80px;
+}
+
+.book4-add-cart button
+{
+    height: 30px;
+    width: 70px;
+}
+
+.book5
+{
+    display: flex;
+}
+
+.book5-img
+{
+    height: 170px;
+    width: 130px;
+    background-image: url("Artificial\ Intelligence.webp");
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.book5-title
+{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.book5-author
+{
+    position: relative;
+    left: -151px;
+    top: 45px;
+}
+
+.book5-add-cart
+{
+    position: relative;
+    left: 693px;
+    top: 80px;
+}
+
+.book5-add-cart button
+{
+    height: 30px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
