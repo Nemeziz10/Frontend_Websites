@@ -1,0 +1,124 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box-outer
+{
+    height: 500px;
+    width: 400px;
+    border: 10px solid yellow;
+    position: absolute;
+    left: 36%;
+    top: 100px;
+}
+
+.box-outer p
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#email
+{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    font-size: large;
+    padding: 5px;
+}
+
+#password
+{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    font-size: large;
+    padding: 5px;
+}
+
+.button button
+{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 141px;
+    top: 270px;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+}
+
+.button button a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.button button:hover
+{
+    cursor: pointer;
+    background-color: rgb(65, 65, 255);
+}
+
+#sign-up
+{
+    text-decoration: none;
+    position: absolute;
+    left: 90px;
+    top: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
