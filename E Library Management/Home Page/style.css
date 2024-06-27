@@ -1,0 +1,220 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+
+.nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.line
+{
+    height: 1px;
+    background-color: black;
+}
+
+.logo
+{
+    height: 60px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+header li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header a:hover
+{
+    font-size: 18px;
+    color: red;
+}
+
+.background-img
+{
+    height: 450px;
+    width: 1400px;
+    margin: 10px 10px 10px 10px;
+    background-image: url("pexels-polina-zimmerman-3747517.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    top: 500px;
+}
+
+.background-img p
+{
+    position: relative;
+    top: 390px;
+    text-align: center;
+}
+
+.main-contents
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.read
+{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.read:hover
+{
+    border: 1px solid blue;
+}
+
+.read a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.watch
+{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.watch:hover
+{
+    border: 1px solid blue;
+}
+
+.watch a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.paper
+{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.paper:hover
+{
+    border: 1px solid blue;
+}
+
+.paper a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.web
+{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.web:hover
+{
+    border: 1px solid blue;
+}
+
+.web a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-end
+{
+    position: relative;
+    display: flex;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 30px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
